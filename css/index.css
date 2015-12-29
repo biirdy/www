@@ -1,0 +1,26 @@
+body{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #eee;
+}
+
+hr{
+	border-color: #4d4d4d;	
+}
+
+img{
+	max-width: 33%;
+	height: auto;
+	display: block;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 767px) {
+	img{
+		max-width: 100%;
+	}
+}
+
