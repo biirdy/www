@@ -1,0 +1,6 @@
+# save including WP
+/blog/*
+
+# include template
+!/blog/index.php
+
