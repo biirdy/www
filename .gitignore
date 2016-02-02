@@ -3,4 +3,6 @@
 
 # include template
 !/blog/index.php
+!/blog/css/*
+!/blog/bootstrap-comments.pgp
 
