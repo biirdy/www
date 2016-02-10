@@ -1,0 +1,42 @@
+body{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #eee;
+}
+
+hr{
+	border-color: #4d4d4d;	
+}
+
+.comment-list{
+	list-style: none;
+	padding: 0px;
+}
+
+.avatar{
+	border-radius: 50%;
+}
+
+/*
+* WordPress comments form
+*/
+.comment-form-comment,
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+    width: 100%;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 767px) {
+
+	.comment-form-comment,
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url {
+    		width: 50%;
+	}
+}

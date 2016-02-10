@@ -1,8 +1,6 @@
 # save including WP
 /blog/*
-
-# include template
 !/blog/index.php
-!/blog/css/index.css
+!/blog/css/
 !/blog/bootstrap-comments.php
 

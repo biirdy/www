@@ -12,7 +12,7 @@
  *
  * @var bool
  */
-define('WP_USE_THEMES', true);
+define('WP_USE_THEMES', false);
 
 require_once( dirname(__FILE__) . '/wp-load.php' );
 
@@ -46,15 +46,15 @@ wp();
         <!-- Nav bar header -->
         <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                <a class="navbar-brand" href="../index.html#">Jamie Bird</a>
+                <a class="navbar-brand" href="http://jamie-bird.com/index.html#">Jamie Bird</a>
         </div>
 
         <!-- Nav bar body -->
         <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav"><li><a href="../index.html#bio-con">Bio</a></li>
-                <li><a href="../index.html#research-con">Research</a></li>
-                <li><a href="../index.html#projects-con">Projects</a></li>
-                <li><a href="../index.html#teaching-con">Teaching</a></li>
+                <ul class="nav navbar-nav"><li><a href="http://jamie-bird.com/index.html#bio-con">Bio</a></li>
+                <li><a href="http://jamie-bird.com/index.html#research-con">Research</a></li>
+                <li><a href="http://jamie-bird.com/index.html#projects-con">Projects</a></li>
+                <li><a href="http://jamie-bird.com/index.html#teaching-con">Teaching</a></li>
                 <li><a href="index.php">Blog</a></li>
         </div>
 
